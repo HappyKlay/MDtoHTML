@@ -1,6 +1,6 @@
 package org.example.nodes;
 
-public class CodeNode implements MDNode {
+public class OrderedListNode implements MDNode {
     @Override
     public String content() {
         return "";

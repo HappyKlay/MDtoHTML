@@ -1,9 +1,4 @@
 package org.example.nodes;
 
-public class ItalicNode implements MDNode {
-    String content;
-    public ItalicNode(String content) {
-        this.content = content;
-    }
-    public String getContent() { return content; }
+public record ItalicNode(String content) implements MDNode {
 }

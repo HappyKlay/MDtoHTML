@@ -3,7 +3,7 @@ package org.example.nodes;
 public class ParagraphNode implements MDNode {
 
     @Override
-    public String getContent() {
+    public String content() {
         return "";
     }
 }
